@@ -295,4 +295,5 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/django,pycharm,visualstudiocode
 
+# secure settings info
 my_settings.py
