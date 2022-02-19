@@ -26,6 +26,6 @@ jobs: # 하나의 workflow는 여러개의  job으로 구성된다.
         run: | #run에서 |(파이프라인)은 yaml의 문법이다. value가 여러 줄 이라는 것을 의미한다.
           ${HOME}/.poetry/bin/poetry install
 
-      - name: Test python project
-        run: |
-          poetry run python manage.py test
+      # - name: Test python project
+      #   run: |
+      #     poetry run python manage.py test
