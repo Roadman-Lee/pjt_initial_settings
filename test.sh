@@ -9,10 +9,14 @@ poetry run black .
 echo "Run isort"
 poetry run isort .
 
+echo "Run flake8"
+flake8
+
 echo "Run mypy"
 poetry run mypy .
 
-echo "Run tests"
-python manage.py test
+# echo "Run tests"
+# python manage.py test
 
 echo "${COLOR_GREEN}You are good to go!${COLOR_NC}"
+python manage.py runserver
