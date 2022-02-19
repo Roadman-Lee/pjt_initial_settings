@@ -298,5 +298,3 @@ fabric.properties
 # secure settings info
 my_settings.py
 
-# giyhub action workflow
-.github
